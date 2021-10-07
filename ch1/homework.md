@@ -8,6 +8,7 @@ gdb ./main
 info file
 
 可以找到程序入口
+![image](https://github.com/izayadr/GoCNStudyNote/blob/cac5b6203b2927f001d497687ca9c020ad5218e4/ch1/image-20211007154134272.png)
 
 image-20211007154134272
 
@@ -18,8 +19,7 @@ image-20211007154134272
 (dlv) b *0x10655a0
 
 打断点后可以看到函数执行情况
-
-image-20211007165000718
+![image](https://github.com/izayadr/GoCNStudyNote/blob/cac5b6203b2927f001d497687ca9c020ad5218e4/ch1/image-20211007165000718.png)
 
 # 查询函数的调用方
 必做：runqput，runqget，globrunqput，globrunqget 选做：schedule，findrunnable，sysmon
